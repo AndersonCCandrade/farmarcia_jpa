@@ -1,9 +1,17 @@
 package br.com.alurasenac.modulo.produto;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "fabricantes")
 public class Fabricante {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY )
     private Long id;
     private String nome;
 
+    public Fabricante() {
+    }
     public Fabricante(String nome) {
         this.nome = nome;
     }
