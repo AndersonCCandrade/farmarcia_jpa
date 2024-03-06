@@ -1,4 +1,4 @@
-package br.com.alurasenac.modulo.produto;
+package br.com.alurasenac.farmacia.modulo.produto;
 
 import javax.persistence.*;
 
