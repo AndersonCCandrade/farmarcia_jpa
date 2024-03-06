@@ -13,6 +13,7 @@ public class Produto {
     private double preco;
     @ManyToOne
     private Fabricante fabricante;
+    private boolean ativo;
 
     public Produto() {
     }
@@ -21,6 +22,7 @@ public class Produto {
         this.descricao = descricao;
         this.preco = preco;
         this.fabricante = fabricante;
+        this.ativo = true;
     }
 
     public Long getId() {
@@ -57,6 +59,14 @@ public class Produto {
 
     public void setFabricante(Fabricante fabricante) {
         this.fabricante = fabricante;
+    }
+
+    public boolean getAtivo() {
+        return ativo;
+    }
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
     }
 
     @Override
