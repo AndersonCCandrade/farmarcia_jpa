@@ -8,14 +8,14 @@ import br.com.alurasenac.farmacia.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 
-public class AtualizarProduto {
+public class DeletarProduto {
     public static void main(String[] args) {
 
-        Fabricante fabricante = new Fabricante("Johnson&Johnson");
+        Fabricante fabricante = new Fabricante("Neo Quimica");
         Produto produto = new Produto(
-                "DORFLEX",
-                "Dor nas juntas",
-                19.29,
+                "Buscopan",
+                "Dores abdominais",
+                35.00,
                 fabricante);
 
         EntityManager em = JPAUtil.getEntityManager();
@@ -30,9 +30,7 @@ public class AtualizarProduto {
         em.flush();
         em.clear();
 
-        produto.setDescricao("Indicado para dor muscular");
-
-        produtoDao.atualizar(produto);
+        produtoDao.remover(produto);
         em.getTransaction().commit();
         em.close();
     }

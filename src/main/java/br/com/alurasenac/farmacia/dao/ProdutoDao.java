@@ -19,6 +19,11 @@ public class ProdutoDao {
         this.em.merge(produto);
     }
 
+    public void remover(Produto produto){
+        produto = this.em.merge(produto);
+        this.em.remove(produto);
+    }
+
     public List<Produto> listarTodos(){
         String jpql = "SELECT p FROM Produto  p";
         return em.createQuery(jpql, Produto.class).getResultList();
