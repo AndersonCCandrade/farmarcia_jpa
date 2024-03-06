@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1bd058-2c1e-4f25-af9a-8d809e56f242" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/testes/ListarTodosProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/testes/AtualizarProduto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/dao/ProdutoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Fabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Fabricante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/testes/CadastrarProdutoEFabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/testes/CadastrarProdutoEFabricante.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AtualizarProduto.executor&quot;: &quot;Run&quot;,
     &quot;Application.CadastrarProdutoEFabricante.executor&quot;: &quot;Run&quot;,
     &quot;Application.ListarTodosProdutos.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -73,7 +71,20 @@
       <recent name="br.com.alurasenac.modulo.produto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListarTodosProdutos">
+  <component name="RunManager" selected="Application.AtualizarProduto">
+    <configuration name="AtualizarProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alurasenac.farmacia.testes.AtualizarProduto" />
+      <module name="farmacia_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alurasenac.farmacia.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CadastrarProdutoEFabricante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alurasenac.farmacia.testes.CadastrarProdutoEFabricante" />
       <module name="farmacia_jpa" />
@@ -115,8 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListarTodosProdutos" />
+        <item itemvalue="Application.AtualizarProduto" />
         <item itemvalue="Application.CadastrarProdutoEFabricante" />
+        <item itemvalue="Application.ListarTodosProdutos" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +171,15 @@
       <workItem from="1709692084869" duration="47000" />
       <workItem from="1709692152622" duration="1062000" />
       <workItem from="1709693230705" duration="150000" />
+      <workItem from="1709693433795" duration="237000" />
+      <workItem from="1709693717014" duration="185000" />
+      <workItem from="1709694124687" duration="144000" />
+      <workItem from="1709694291921" duration="314000" />
+      <workItem from="1709694732834" duration="340000" />
+      <workItem from="1709695122331" duration="261000" />
+      <workItem from="1709695416222" duration="136000" />
+      <workItem from="1709695971959" duration="213000" />
+      <workItem from="1709696409674" duration="307000" />
     </task>
     <servers />
   </component>

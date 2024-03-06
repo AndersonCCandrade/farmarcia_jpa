@@ -15,8 +15,21 @@ public class ProdutoDao {
         this.em.persist(produto);
     }
 
+    public void atualizar(Produto produto){
+        this.em.merge(produto);
+    }
+
     public List<Produto> listarTodos(){
         String jpql = "SELECT p FROM Produto  p";
         return em.createQuery(jpql, Produto.class).getResultList();
     }
+
+    public Produto listarPorNome(Integer id){
+        String jpql ="SELECT p FROM Produto p WHERE p.id = ?1";
+        return em.createQuery(jpql, Produto.class)
+                .setParameter(1, id)
+                .getSingleResult();
+    }
+
+
 }
