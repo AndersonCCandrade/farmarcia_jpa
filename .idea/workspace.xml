@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f1bd058-2c1e-4f25-af9a-8d809e56f242" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/testes/AdicionarAtributo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alurasenac/farmacia/modulo/produto/Produto.java" afterDir="false" />
     </list>
@@ -42,32 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AdicionarAtributo.executor": "Run",
-    "Application.AtualizarProduto.executor": "Run",
-    "Application.CadastrarProdutoEFabricante.executor": "Run",
-    "Application.DeletarProduto.executor": "Run",
-    "Application.ListarTodosProdutos.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "G:/Alura - JAVA/Projeto Java/farmarcia_jpa/src/main/java/br/com/alurasenac/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AdicionarAtributo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AtualizarProduto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CadastrarProdutoEFabricante.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeletarProduto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListarTodosProdutos.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;G:/Alura - JAVA/Projeto Java/farmarcia_jpa/src/main/java/br/com/alurasenac/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alurasenac.modulo.produto" />
@@ -76,7 +75,7 @@
       <recent name="br.com.alurasenac.farmacia.testes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdicionarAtributo">
+  <component name="RunManager" selected="Application.ListarTodosProdutos">
     <configuration name="AdicionarAtributo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alurasenac.farmacia.testes.AdicionarAtributo" />
       <module name="farmacia_jpa" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListarTodosProdutos" />
         <item itemvalue="Application.AdicionarAtributo" />
         <item itemvalue="Application.DeletarProduto" />
         <item itemvalue="Application.AtualizarProduto" />
         <item itemvalue="Application.CadastrarProdutoEFabricante" />
-        <item itemvalue="Application.ListarTodosProdutos" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +212,9 @@
       <workItem from="1709695416222" duration="136000" />
       <workItem from="1709695971959" duration="213000" />
       <workItem from="1709696409674" duration="644000" />
-      <workItem from="1709697084710" duration="1201000" />
+      <workItem from="1709697084710" duration="1398000" />
+      <workItem from="1709724910733" duration="9000" />
+      <workItem from="1709856064479" duration="440000" />
     </task>
     <servers />
   </component>

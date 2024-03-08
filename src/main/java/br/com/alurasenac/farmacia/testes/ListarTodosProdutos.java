@@ -14,6 +14,6 @@ public class ListarTodosProdutos {
         ProdutoDao produtoDao = new ProdutoDao(em);
 
         List<Produto> produtos = produtoDao.listarTodos();
-        produtos.forEach(p -> System.out.println(p.toString()));
+        produtos.forEach(p -> System.out.println(p.getName()));
     }
 }

@@ -11,7 +11,7 @@ public class Produto {
     private String name;
     private String descricao;
     private double preco;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Fabricante fabricante;
     private boolean ativo;
 
